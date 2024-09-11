@@ -38,7 +38,7 @@ require ("logica/Marca.php");
 								$marca = new Marca();
 								
 								$marcas = $marca->consultarTodos();
-								foreach($productos as $marcaActual){
+								foreach($marcas as $marcaActual){
 									echo "<li><a class='dropdown-item' href='#'>" . $marcaActual->getNombre() . "</a></li>";
 								}
 							?>
