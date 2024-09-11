@@ -36,11 +36,11 @@ require ("logica/Marca.php");
 						<ul class="dropdown-menu">
 							<?php
 								$marca = new Marca();
-								/*
+								
 								$marcas = $marca->consultarTodos();
 								foreach($productos as $marcaActual){
 									echo "<li><a class='dropdown-item' href='#'>" . $marcaActual->getNombre() . "</a></li>";
-								}*/
+								}
 							?>
 						</ul></li>
 				</ul>
